@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "identity": {
+    "name": "Aakash Agrawal",
+    "handle": "Aakash-a18",
+    "eyebrow": "AA / FLIGHT RECORDER",
+    "headline": [
+      "Building the trust layer,",
+      "the delegations, and the",
+      "instruments to see farther."
+    ],
+    "website": "https://www.aakashagrawal.me",
+    "timezone": "America/New_York"
+  },
+  "status": {
+    "label": "BUILDING",
+    "mode": "INDEPENDENT R&D",
+    "disclosure": "PUBLIC WHERE POSSIBLE"
+  },
+  "research_areas": [
+    {
+      "number": "01",
+      "name": "TRUST",
+      "detail": "Identity, scoped disclosure, provenance"
+    },
+    {
+      "number": "02",
+      "name": "DELEGATION",
+      "detail": "Software that acts under bounded authority"
+    },
+    {
+      "number": "03",
+      "name": "COGNITION",
+      "detail": "Memory, context, and temporal interfaces"
+    },
+    {
+      "number": "04",
+      "name": "LONG-HORIZON RESEARCH",
+      "detail": "Instruments for decisions that compound"
+    }
+  ],
+  "projects": [
+    {
+      "id": "mesherra",
+      "name": "MESHERRA",
+      "category": "TRUST LAYER",
+      "repo": "Aakash-a18/mesherra",
+      "url": "https://github.com/Aakash-a18/mesherra",
+      "status": "PRE-ALPHA / ACTIVE",
+      "description": "Identity verification, scoped disclosure, and signed provenance for agent-to-agent interaction."
+    },
+    {
+      "id": "meshycal",
+      "name": "MESHYCAL",
+      "category": "FIRST DELEGATION",
+      "repo": "Aakash-a18/meshycal",
+      "url": "https://github.com/Aakash-a18/meshycal",
+      "status": "PRE-ALPHA / ACTIVE",
+      "description": "Two agents negotiate a meeting without exposing either calendar, then attest the result."
+    },
+    {
+      "id": "chronica",
+      "name": "CHRONICA",
+      "category": "LIFE IN FRAMES",
+      "repo": "Aakash-a18/chronica-life-in-frames",
+      "url": "https://github.com/Aakash-a18/chronica-life-in-frames",
+      "status": "PUBLIC / SHIPPED",
+      "description": "An Obsidian life calendar that turns decades into a navigable grid of weeks."
+    },
+    {
+      "id": "funda",
+      "name": "FUNDA",
+      "category": "RESEARCH WORKBENCH",
+      "repo": "Aakash-a18/funda",
+      "url": "https://github.com/Aakash-a18/funda",
+      "status": "PUBLIC / EXPLORING",
+      "description": "A personal investment research workbench for structured, long-horizon inquiry."
+    }
+  ],
+  "private_programs": [
+    {
+      "display": "PRIVATE / ACTIVE",
+      "status": "WITHHELD BY DESIGN"
+    },
+    {
+      "display": "PRIVATE / ACTIVE",
+      "status": "WITHHELD BY DESIGN"
+    },
+    {
+      "display": "PRIVATE / ACTIVE",
+      "status": "WITHHELD BY DESIGN"
+    }
+  ],
+  "principles": [
+    "Proof before proclamation.",
+    "Default to withholding.",
+    "Build the smallest honest test rig.",
+    "Abstract only after the second real use.",
+    "Publish when the work can withstand being seen."
+  ],
+  "closing_line": "DISCLOSE THE QUESTION. PROTECT THE WORK."
+}
+

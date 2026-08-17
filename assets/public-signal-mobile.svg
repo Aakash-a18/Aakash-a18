@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" role="img" aria-labelledby="mobile-signal-title mobile-signal-desc">
+<title id="mobile-signal-title">Public signal</title>
+<desc id="mobile-signal-desc">Recent public activity for four selected repositories.</desc>
+<style>
+      .display { font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif; font-weight: 800; letter-spacing: 1px; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .white { fill: #f5f5f2; }
+      .muted { fill: #8b9693; }
+      .ink { fill: #111514; }
+      .paper-muted { fill: #666965; }
+      .mint { fill: #5ef2b2; }
+      .red { fill: #f0442e; }
+      .amber { fill: #d8a633; }
+      .eyebrow { font-size: 13px; letter-spacing: 2.2px; }
+      .label { font-size: 12px; letter-spacing: 1.4px; }
+      .micro { font-size: 9px; letter-spacing: 1px; }
+      .body { font-size: 14px; }
+      .signal { stroke-dasharray: 7 12; animation: signal-flow 12s linear infinite; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: live-pulse 2.4s ease-in-out infinite; }
+      @keyframes signal-flow { to { stroke-dashoffset: -190; } }
+      @keyframes live-pulse { 0%, 100% { opacity: .55; transform: scale(.84); } 50% { opacity: 1; transform: scale(1.08); } }
+      @media (prefers-reduced-motion: reduce) {
+        .signal, .pulse { animation: none !important; }
+      }
+    </style>
+<rect width="720" height="430" fill="#0a0d0d"/>
+<text x="24" y="31" class="mono eyebrow mint">PUBLIC SIGNAL / AUTO-REFRESHED</text>
+<text x="696" y="31" class="mono micro muted" text-anchor="end">2026.08.17</text>
+<line x1="24" y1="47" x2="696" y2="47" stroke="#35403d"/>
+<line x1="360" y1="66" x2="360" y2="405" stroke="#26302e"/>
+<line x1="24" y1="230" x2="696" y2="230" stroke="#26302e"/>
+<text x="28" y="94" class="mono label white">01 / MESHERRA</text>
+<text x="28" y="132" class="mono micro muted">LAST PUSH</text>
+<text x="120" y="132" class="mono micro mint">1MO AGO</text>
+<text x="28" y="160" class="mono micro muted">STARS</text>
+<text x="120" y="160" class="mono micro white">0</text>
+<text x="28" y="188" class="mono micro muted">LANGUAGE</text>
+<text x="120" y="188" class="mono micro white">Python</text>
+<text x="384" y="94" class="mono label white">02 / MESHYCAL</text>
+<text x="384" y="132" class="mono micro muted">LAST PUSH</text>
+<text x="476" y="132" class="mono micro mint">1MO AGO</text>
+<text x="384" y="160" class="mono micro muted">STARS</text>
+<text x="476" y="160" class="mono micro white">0</text>
+<text x="384" y="188" class="mono micro muted">LANGUAGE</text>
+<text x="476" y="188" class="mono micro white">Python</text>
+<text x="28" y="258" class="mono label white">03 / CHRONICA</text>
+<text x="28" y="296" class="mono micro muted">LAST PUSH</text>
+<text x="120" y="296" class="mono micro mint">5MO AGO</text>
+<text x="28" y="324" class="mono micro muted">STARS</text>
+<text x="120" y="324" class="mono micro white">72</text>
+<text x="28" y="352" class="mono micro muted">LANGUAGE</text>
+<text x="120" y="352" class="mono micro white">TypeScript</text>
+<text x="384" y="258" class="mono label white">04 / FUNDA</text>
+<text x="384" y="296" class="mono micro muted">LAST PUSH</text>
+<text x="476" y="296" class="mono micro mint">4MO AGO</text>
+<text x="384" y="324" class="mono micro muted">STARS</text>
+<text x="476" y="324" class="mono micro white">0</text>
+<text x="384" y="352" class="mono micro muted">LANGUAGE</text>
+<text x="476" y="352" class="mono micro white">TypeScript</text>
+</svg>

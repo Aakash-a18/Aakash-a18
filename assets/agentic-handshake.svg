@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="handshake-title handshake-desc">
+<title id="handshake-title">The agentic frontier</title>
+<desc id="handshake-desc">Two humans delegate to agents that communicate through verified airlocks. Both sides retain matching signed residue.</desc>
+<defs>
+<pattern id="handshake-grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M 34 0 L 0 0 0 34" fill="none" stroke="#141b1a" stroke-width="0.7"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#24d7e8"/></marker>
+<style>
+      .display { font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif; font-weight: 800; letter-spacing: 1px; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .white { fill: #f5f5f2; }
+      .muted { fill: #8b9693; }
+      .ink { fill: #111514; }
+      .paper-muted { fill: #666965; }
+      .mint { fill: #5ef2b2; }
+      .red { fill: #f0442e; }
+      .amber { fill: #d8a633; }
+      .eyebrow { font-size: 13px; letter-spacing: 2.2px; }
+      .label { font-size: 12px; letter-spacing: 1.4px; }
+      .micro { font-size: 9px; letter-spacing: 1px; }
+      .body { font-size: 14px; }
+      .signal { stroke-dasharray: 7 12; animation: signal-flow 12s linear infinite; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: live-pulse 2.4s ease-in-out infinite; }
+      @keyframes signal-flow { to { stroke-dashoffset: -190; } }
+      @keyframes live-pulse { 0%, 100% { opacity: .55; transform: scale(.84); } 50% { opacity: 1; transform: scale(1.08); } }
+      @media (prefers-reduced-motion: reduce) {
+        .signal, .pulse { animation: none !important; }
+      }
+    </style>
+</defs>
+<rect width="1200" height="430" fill="#060909"/>
+<rect width="1200" height="430" fill="url(#handshake-grid)" opacity="0.58"/>
+<text x="28" y="38" class="mono eyebrow muted">THE AGENTIC FRONTIER / PROOF 01</text>
+<text x="28" y="91" class="display white" font-size="36">THE NEXT SOFTWARE DOES NOT WAIT TO BE OPENED.</text>
+<text x="30" y="121" class="mono body muted">Delegated authority makes identity, disclosure, and provenance product primitives.</text>
+<line x1="78" y1="250" x2="1120" y2="250" stroke="#24d7e8" stroke-width="2" stroke-dasharray="6 8" class="signal" marker-end="url(#arrow)"/>
+<circle cx="78" cy="250" r="39" fill="#060909" stroke="#d7ddda"/>
+<circle cx="78" cy="250" r="9" fill="none" stroke="#d7ddda"/>
+<text x="78" y="317" class="mono label white" text-anchor="middle">HUMAN</text>
+<circle cx="260" cy="250" r="39" fill="#060909" stroke="#d7ddda"/>
+<circle cx="260" cy="250" r="9" fill="none" stroke="#d7ddda"/>
+<text x="260" y="317" class="mono label white" text-anchor="middle">AGENT</text>
+<polygon points="430,210 465,230 465,270 430,290 395,270 395,230" fill="#081110" stroke="#24d7e8" stroke-width="1.5"/>
+<line x1="430" y1="222" x2="430" y2="278" stroke="#24d7e8" stroke-width="3"/>
+<text x="430" y="317" class="mono label white" text-anchor="middle">AIRLOCK</text>
+<polygon points="770,210 805,230 805,270 770,290 735,270 735,230" fill="#081110" stroke="#24d7e8" stroke-width="1.5"/>
+<line x1="770" y1="222" x2="770" y2="278" stroke="#24d7e8" stroke-width="3"/>
+<text x="770" y="317" class="mono label white" text-anchor="middle">AIRLOCK</text>
+<circle cx="940" cy="250" r="39" fill="#060909" stroke="#d7ddda"/>
+<circle cx="940" cy="250" r="9" fill="none" stroke="#d7ddda"/>
+<text x="940" y="317" class="mono label white" text-anchor="middle">AGENT</text>
+<circle cx="1120" cy="250" r="39" fill="#060909" stroke="#d7ddda"/>
+<circle cx="1120" cy="250" r="9" fill="none" stroke="#d7ddda"/>
+<text x="1120" y="317" class="mono label white" text-anchor="middle">HUMAN</text>
+<text x="600" y="238" class="mono label mint" text-anchor="middle">A2A WIRE</text>
+<path d="M 430 294 L 430 344 Q 430 360 448 360 L 752 360 Q 770 360 770 344 L 770 294" fill="none" stroke="#d8a633" stroke-width="2" stroke-dasharray="4 5"/>
+<path d="M 600 344 l 14 8 v 16 q -14 15 -28 0 v -16 z" fill="#060909" stroke="#d8a633"/>
+<path d="M 594 359 l 5 5 9 -11" fill="none" stroke="#d8a633" stroke-width="2"/>
+<text x="600" y="397" class="mono label amber" text-anchor="middle">SIGNED RESIDUE / MATCHING RECORDS ON BOTH SIDES</text>
+<line x1="28" y1="414" x2="1172" y2="414" stroke="#35403d"/>
+</svg>

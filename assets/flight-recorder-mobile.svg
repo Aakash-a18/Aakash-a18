@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1180" viewBox="0 0 720 1180" role="img" aria-labelledby="mobile-flight-title mobile-flight-desc">
+<title id="mobile-flight-title">Aakash Agrawal — Flight Recorder</title>
+<desc id="mobile-flight-desc">Mobile research map with four public projects, private active programs, and four indexed research areas.</desc>
+<defs>
+<pattern id="mobile-dark-grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M 28 0 L 0 0 0 28" fill="none" stroke="#18201e" stroke-width="0.7"/></pattern>
+<pattern id="mobile-paper-grid" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#c8c4ba" opacity="0.7"/></pattern>
+<style>
+      .display { font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif; font-weight: 800; letter-spacing: 1px; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .white { fill: #f5f5f2; }
+      .muted { fill: #8b9693; }
+      .ink { fill: #111514; }
+      .paper-muted { fill: #666965; }
+      .mint { fill: #5ef2b2; }
+      .red { fill: #f0442e; }
+      .amber { fill: #d8a633; }
+      .eyebrow { font-size: 13px; letter-spacing: 2.2px; }
+      .label { font-size: 12px; letter-spacing: 1.4px; }
+      .micro { font-size: 9px; letter-spacing: 1px; }
+      .body { font-size: 14px; }
+      .signal { stroke-dasharray: 7 12; animation: signal-flow 12s linear infinite; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: live-pulse 2.4s ease-in-out infinite; }
+      @keyframes signal-flow { to { stroke-dashoffset: -190; } }
+      @keyframes live-pulse { 0%, 100% { opacity: .55; transform: scale(.84); } 50% { opacity: 1; transform: scale(1.08); } }
+      @media (prefers-reduced-motion: reduce) {
+        .signal, .pulse { animation: none !important; }
+      }
+    </style>
+</defs>
+<rect width="720" height="710" fill="#060909"/>
+<rect width="720" height="710" fill="url(#mobile-dark-grid)" opacity="0.54"/>
+<rect y="710" width="720" height="470" fill="#f2f0e9"/>
+<rect x="560" y="730" width="140" height="410" fill="url(#mobile-paper-grid)" opacity="0.5"/>
+<line x1="24" y1="48" x2="696" y2="48" stroke="#35403d"/>
+<text x="26" y="31" class="mono eyebrow white">AA / FLIGHT RECORDER / LIVE</text>
+<circle cx="684" cy="26" r="5" fill="#5ef2b2" class="pulse"/>
+<text x="26" y="108" class="display white" font-size="49">AAKASH AGRAWAL</text>
+<text x="29" y="147" class="mono body white">Building the trust layer,</text>
+<text x="29" y="171" class="mono body white">the delegations, and the</text>
+<text x="29" y="195" class="mono body white">instruments to see farther.</text>
+<line x1="360" y1="230" x2="360" y2="1148" stroke="#5ef2b2" stroke-width="1"/>
+<line x1="360" y1="230" x2="360" y2="1148" stroke="#5ef2b2" stroke-width="2" class="signal"/>
+<ellipse cx="360" cy="360" rx="242" ry="120" fill="none" stroke="#52605d"/>
+<ellipse cx="360" cy="360" rx="174" ry="82" fill="none" stroke="#34403d"/>
+<ellipse cx="360" cy="360" rx="94" ry="46" fill="none" stroke="#34403d" stroke-dasharray="3 7"/>
+<circle cx="360" cy="360" r="10" fill="#060909" stroke="#f5f5f2"/>
+<circle cx="360" cy="360" r="3" fill="#f5f5f2"/>
+<circle cx="186" cy="302" r="6" fill="#5ef2b2"/>
+<circle cx="502" cy="300" r="6" fill="#5ef2b2"/>
+<circle cx="156" cy="407" r="6" fill="#5ef2b2"/>
+<circle cx="548" cy="418" r="6" fill="#5ef2b2"/>
+<text x="26" y="508" class="mono label muted">PUBLIC ORBIT</text>
+<line x1="26" y1="522" x2="694" y2="522" stroke="#35403d"/>
+<text x="28" y="552" class="mono label white">01 / MESHERRA</text>
+<text x="692" y="552" class="mono micro mint" text-anchor="end">1MO AGO</text>
+<text x="28" y="587" class="mono label white">02 / MESHYCAL</text>
+<text x="692" y="587" class="mono micro mint" text-anchor="end">1MO AGO</text>
+<text x="28" y="622" class="mono label white">03 / CHRONICA</text>
+<text x="692" y="622" class="mono micro mint" text-anchor="end">5MO AGO</text>
+<text x="28" y="657" class="mono label white">04 / FUNDA</text>
+<text x="692" y="657" class="mono micro mint" text-anchor="end">4MO AGO</text>
+<text x="28" y="694" class="mono label red">03 PRIVATE PROGRAMS / ACTIVE</text>
+<text x="692" y="694" class="mono micro muted" text-anchor="end">WITHHELD BY DESIGN</text>
+<text x="26" y="748" class="mono label paper-muted">RESEARCH INDEX</text>
+<text x="694" y="748" class="mono micro paper-muted" text-anchor="end">UPDATED 2026.08.17</text>
+<line x1="26" y1="762" x2="694" y2="762" stroke="#8b8b84"/>
+<text x="28" y="818" class="display ink" font-size="38">01</text>
+<text x="112" y="813" class="mono body ink">TRUST</text>
+<text x="112" y="838" class="mono micro paper-muted">Identity, scoped disclosure, provenance</text>
+<line x1="28" y1="853" x2="694" y2="853" stroke="#aaa79f"/>
+<circle cx="360" cy="853" r="6" fill="#f2f0e9" stroke="#111514"/>
+<circle cx="360" cy="853" r="2" fill="#111514"/>
+<text x="28" y="894" class="display ink" font-size="38">02</text>
+<text x="112" y="889" class="mono body ink">DELEGATION</text>
+<text x="112" y="914" class="mono micro paper-muted">Software that acts under bounded authority</text>
+<line x1="28" y1="929" x2="694" y2="929" stroke="#aaa79f"/>
+<circle cx="360" cy="929" r="6" fill="#f2f0e9" stroke="#111514"/>
+<circle cx="360" cy="929" r="2" fill="#111514"/>
+<text x="28" y="970" class="display ink" font-size="38">03</text>
+<text x="112" y="965" class="mono body ink">COGNITION</text>
+<text x="112" y="990" class="mono micro paper-muted">Memory, context, and temporal interfaces</text>
+<line x1="28" y1="1005" x2="694" y2="1005" stroke="#aaa79f"/>
+<circle cx="360" cy="1005" r="6" fill="#f2f0e9" stroke="#111514"/>
+<circle cx="360" cy="1005" r="2" fill="#111514"/>
+<text x="28" y="1046" class="display ink" font-size="38">04</text>
+<text x="112" y="1041" class="mono body ink">LONG-HORIZON RESEARCH</text>
+<text x="112" y="1066" class="mono micro paper-muted">Instruments for decisions that compound</text>
+<line x1="28" y1="1081" x2="694" y2="1081" stroke="#aaa79f"/>
+<circle cx="360" cy="1081" r="6" fill="#f2f0e9" stroke="#111514"/>
+<circle cx="360" cy="1081" r="2" fill="#111514"/>
+<rect x="78" y="1116" width="564" height="38" fill="none" stroke="#111514" stroke-width="2"/>
+<text x="360" y="1142" class="mono label ink" text-anchor="middle">DISCLOSE THE QUESTION. PROTECT THE WORK.</text>
+</svg>

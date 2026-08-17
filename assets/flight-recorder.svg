@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="flight-title flight-desc">
+<title id="flight-title">Aakash Agrawal — Flight Recorder</title>
+<desc id="flight-desc">A live research map connecting four public projects to three deliberately unnamed private programs, followed by an indexed research ledger.</desc>
+<defs>
+<pattern id="dark-grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M 28 0 L 0 0 0 28" fill="none" stroke="#18201e" stroke-width="0.7"/></pattern>
+<pattern id="paper-grid" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#c8c4ba" opacity="0.7"/></pattern>
+<style>
+      .display { font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif; font-weight: 800; letter-spacing: 1px; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .white { fill: #f5f5f2; }
+      .muted { fill: #8b9693; }
+      .ink { fill: #111514; }
+      .paper-muted { fill: #666965; }
+      .mint { fill: #5ef2b2; }
+      .red { fill: #f0442e; }
+      .amber { fill: #d8a633; }
+      .eyebrow { font-size: 13px; letter-spacing: 2.2px; }
+      .label { font-size: 12px; letter-spacing: 1.4px; }
+      .micro { font-size: 9px; letter-spacing: 1px; }
+      .body { font-size: 14px; }
+      .signal { stroke-dasharray: 7 12; animation: signal-flow 12s linear infinite; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: live-pulse 2.4s ease-in-out infinite; }
+      @keyframes signal-flow { to { stroke-dashoffset: -190; } }
+      @keyframes live-pulse { 0%, 100% { opacity: .55; transform: scale(.84); } 50% { opacity: 1; transform: scale(1.08); } }
+      @media (prefers-reduced-motion: reduce) {
+        .signal, .pulse { animation: none !important; }
+      }
+    </style>
+</defs>
+<rect width="1200" height="560" fill="#060909"/>
+<rect width="1200" height="560" fill="url(#dark-grid)" opacity="0.54"/>
+<rect y="560" width="1200" height="340" fill="#f2f0e9"/>
+<rect x="980" y="585" width="185" height="260" fill="url(#paper-grid)" opacity="0.56"/>
+<line x1="24" y1="46" x2="1176" y2="46" stroke="#35403d" stroke-width="1"/>
+<text x="28" y="31" class="mono eyebrow white">AA / FLIGHT RECORDER / LIVE</text>
+<circle cx="1160" cy="26" r="5" fill="#5ef2b2" class="pulse"/>
+<text x="1147" y="31" class="mono eyebrow mint" text-anchor="end">LIVE</text>
+<text x="28" y="118" class="display white" font-size="58">AAKASH AGRAWAL</text>
+<text x="31" y="158" class="mono body white">Building the trust layer,</text>
+<text x="31" y="183" class="mono body white">the delegations, and the</text>
+<text x="31" y="208" class="mono body white">instruments to see farther.</text>
+<rect x="28" y="248" width="345" height="198" fill="#080d0c" stroke="#55615e"/>
+<text x="44" y="273" class="mono label muted">HANDSHAKE TRACE</text>
+<line x1="44" y1="283" x2="357" y2="283" stroke="#26302e"/>
+<text x="44" y="306" class="mono micro muted">00:00.000</text>
+<text x="126" y="306" class="mono micro white">INIT</text>
+<text x="216" y="306" class="mono micro mint">→</text>
+<text x="246" y="306" class="mono micro white">HELLO</text>
+<text x="44" y="327" class="mono micro muted">00:00.153</text>
+<text x="126" y="327" class="mono micro white">HELLO</text>
+<text x="216" y="327" class="mono micro mint">→</text>
+<text x="246" y="327" class="mono micro white">CAPABILITIES</text>
+<text x="44" y="348" class="mono micro muted">00:00.287</text>
+<text x="126" y="348" class="mono micro white">CAPABILITIES</text>
+<text x="216" y="348" class="mono micro mint">→</text>
+<text x="246" y="348" class="mono micro white">CHALLENGE</text>
+<text x="44" y="369" class="mono micro muted">00:00.421</text>
+<text x="126" y="369" class="mono micro white">CHALLENGE</text>
+<text x="216" y="369" class="mono micro mint">→</text>
+<text x="246" y="369" class="mono micro white">PROOF</text>
+<text x="44" y="390" class="mono micro muted">00:00.587</text>
+<text x="126" y="390" class="mono micro white">PROOF</text>
+<text x="216" y="390" class="mono micro mint">→</text>
+<text x="246" y="390" class="mono micro white">VERIFY</text>
+<text x="44" y="411" class="mono micro muted">00:00.708</text>
+<text x="126" y="411" class="mono micro white">VERIFY</text>
+<text x="216" y="411" class="mono micro mint">→</text>
+<text x="246" y="411" class="mono micro white">ACK</text>
+<text x="44" y="432" class="mono micro mint">STATUS: TRUST ESTABLISHED</text>
+<line x1="802" y1="70" x2="802" y2="858" stroke="#5ef2b2" stroke-width="1" opacity="0.75"/>
+<line x1="802" y1="70" x2="802" y2="858" stroke="#5ef2b2" stroke-width="2" class="signal"/>
+<circle cx="802" cy="84" r="5" fill="#5ef2b2" class="pulse"/>
+<circle cx="802" cy="309" r="6" fill="#5ef2b2"/>
+<circle cx="802" cy="560" r="5" fill="#f2f0e9" stroke="#111514"/>
+<ellipse cx="650" cy="318" rx="272" ry="160" fill="none" stroke="#52605d"/>
+<ellipse cx="650" cy="318" rx="205" ry="118" fill="none" stroke="#34403d"/>
+<ellipse cx="650" cy="318" rx="128" ry="76" fill="none" stroke="#34403d" stroke-dasharray="3 7"/>
+<circle cx="650" cy="318" r="11" fill="#060909" stroke="#f5f5f2"/>
+<circle cx="650" cy="318" r="3" fill="#f5f5f2"/>
+<line x1="630" y1="318" x2="670" y2="318" stroke="#596360"/>
+<line x1="650" y1="298" x2="650" y2="338" stroke="#596360"/>
+<path d="M 529 202 Q 735 184 802 138" fill="none" stroke="#76817e"/>
+<circle cx="529" cy="202" r="6" fill="#5ef2b2" stroke="#060909" stroke-width="2"/>
+<circle cx="802" cy="138" r="4" fill="#5ef2b2"/>
+<line x1="806" y1="138" x2="914" y2="138" stroke="#65716e"/>
+<circle cx="924" cy="138" r="9" fill="#060909" stroke="#5ef2b2"/>
+<circle cx="924" cy="138" r="3" fill="#5ef2b2"/>
+<text x="946" y="142" class="mono body white">MESHERRA</text>
+<text x="1168" y="142" class="mono micro mint" text-anchor="end">1MO AGO</text>
+<line x1="946" y1="152" x2="1168" y2="152" stroke="#303b38"/>
+<path d="M 771 217 Q 735 199 802 202" fill="none" stroke="#76817e"/>
+<circle cx="771" cy="217" r="6" fill="#5ef2b2" stroke="#060909" stroke-width="2"/>
+<circle cx="802" cy="202" r="4" fill="#5ef2b2"/>
+<line x1="806" y1="202" x2="914" y2="202" stroke="#65716e"/>
+<circle cx="924" cy="202" r="9" fill="#060909" stroke="#5ef2b2"/>
+<circle cx="924" cy="202" r="3" fill="#5ef2b2"/>
+<text x="946" y="206" class="mono body white">MESHYCAL</text>
+<text x="1168" y="206" class="mono micro mint" text-anchor="end">1MO AGO</text>
+<line x1="946" y1="216" x2="1168" y2="216" stroke="#303b38"/>
+<path d="M 485 382 Q 735 364 802 266" fill="none" stroke="#76817e"/>
+<circle cx="485" cy="382" r="6" fill="#5ef2b2" stroke="#060909" stroke-width="2"/>
+<circle cx="802" cy="266" r="4" fill="#5ef2b2"/>
+<line x1="806" y1="266" x2="914" y2="266" stroke="#65716e"/>
+<circle cx="924" cy="266" r="9" fill="#060909" stroke="#5ef2b2"/>
+<circle cx="924" cy="266" r="3" fill="#5ef2b2"/>
+<text x="946" y="270" class="mono body white">CHRONICA</text>
+<text x="1168" y="270" class="mono micro mint" text-anchor="end">5MO AGO</text>
+<line x1="946" y1="280" x2="1168" y2="280" stroke="#303b38"/>
+<path d="M 744 427 Q 735 409 802 330" fill="none" stroke="#76817e"/>
+<circle cx="744" cy="427" r="6" fill="#5ef2b2" stroke="#060909" stroke-width="2"/>
+<circle cx="802" cy="330" r="4" fill="#5ef2b2"/>
+<line x1="806" y1="330" x2="914" y2="330" stroke="#65716e"/>
+<circle cx="924" cy="330" r="9" fill="#060909" stroke="#5ef2b2"/>
+<circle cx="924" cy="330" r="3" fill="#5ef2b2"/>
+<text x="946" y="334" class="mono body white">FUNDA</text>
+<text x="1168" y="334" class="mono micro mint" text-anchor="end">4MO AGO</text>
+<line x1="946" y1="344" x2="1168" y2="344" stroke="#303b38"/>
+<circle cx="802" cy="398" r="4" fill="#f0442e"/>
+<line x1="806" y1="398" x2="914" y2="398" stroke="#5a3a33" stroke-dasharray="3 6"/>
+<circle cx="924" cy="398" r="9" fill="#060909" stroke="#f0442e"/>
+<rect x="920" y="394" width="8" height="7" fill="none" stroke="#f0442e"/>
+<text x="946" y="402" class="mono body red">PRIVATE / ACTIVE</text>
+<text x="1168" y="402" class="mono micro muted" text-anchor="end">WITHHELD</text>
+<circle cx="802" cy="450" r="4" fill="#f0442e"/>
+<line x1="806" y1="450" x2="914" y2="450" stroke="#5a3a33" stroke-dasharray="3 6"/>
+<circle cx="924" cy="450" r="9" fill="#060909" stroke="#f0442e"/>
+<rect x="920" y="446" width="8" height="7" fill="none" stroke="#f0442e"/>
+<text x="946" y="454" class="mono body red">PRIVATE / ACTIVE</text>
+<text x="1168" y="454" class="mono micro muted" text-anchor="end">WITHHELD</text>
+<circle cx="802" cy="502" r="4" fill="#f0442e"/>
+<line x1="806" y1="502" x2="914" y2="502" stroke="#5a3a33" stroke-dasharray="3 6"/>
+<circle cx="924" cy="502" r="9" fill="#060909" stroke="#f0442e"/>
+<rect x="920" y="498" width="8" height="7" fill="none" stroke="#f0442e"/>
+<text x="946" y="506" class="mono body red">PRIVATE / ACTIVE</text>
+<text x="1168" y="506" class="mono micro muted" text-anchor="end">WITHHELD</text>
+<line x1="28" y1="502" x2="1172" y2="502" stroke="#35403d"/>
+<text x="30" y="526" class="mono micro muted">MODE</text>
+<text x="83" y="526" class="mono micro white">INDEPENDENT R&amp;D</text>
+<text x="292" y="526" class="mono micro muted">DISCLOSURE</text>
+<text x="382" y="526" class="mono micro mint">PUBLIC WHERE POSSIBLE</text>
+<text x="697" y="526" class="mono micro muted">PUBLIC SIGNAL</text>
+<text x="792" y="526" class="mono micro white">2026.08.17</text>
+<text x="1168" y="526" class="mono micro mint" text-anchor="end">TELEMETRY / NOMINAL</text>
+<text x="30" y="595" class="mono label paper-muted">CATALOGUE</text>
+<line x1="30" y1="607" x2="194" y2="607" stroke="#878982"/>
+<text x="30" y="632" class="mono micro paper-muted">ARCHIVE</text>
+<text x="105" y="632" class="mono micro ink">AA / FR</text>
+<text x="30" y="651" class="mono micro paper-muted">EDITION</text>
+<text x="105" y="651" class="mono micro ink">01</text>
+<text x="30" y="670" class="mono micro paper-muted">UPDATED</text>
+<text x="105" y="670" class="mono micro ink">2026.08.17</text>
+<text x="30" y="689" class="mono micro paper-muted">MODE</text>
+<text x="105" y="689" class="mono micro ink">OPERATIONAL</text>
+<line x1="220" y1="585" x2="220" y2="862" stroke="#767a74"/>
+<text x="266" y="624" class="display ink" font-size="39">01</text>
+<text x="355" y="622" class="mono body ink">TRUST</text>
+<text x="355" y="644" class="mono micro paper-muted">Identity, scoped disclosure, provenance</text>
+<line x1="252" y1="655" x2="1150" y2="655" stroke="#a9a79f"/>
+<circle cx="802" cy="655" r="6" fill="#f2f0e9" stroke="#111514"/>
+<circle cx="802" cy="655" r="2" fill="#111514"/>
+<text x="266" y="688" class="display ink" font-size="39">02</text>
+<text x="355" y="686" class="mono body ink">DELEGATION</text>
+<text x="355" y="708" class="mono micro paper-muted">Software that acts under bounded authority</text>
+<line x1="252" y1="719" x2="1150" y2="719" stroke="#a9a79f"/>
+<circle cx="802" cy="719" r="6" fill="#f2f0e9" stroke="#111514"/>
+<circle cx="802" cy="719" r="2" fill="#111514"/>
+<text x="266" y="752" class="display ink" font-size="39">03</text>
+<text x="355" y="750" class="mono body ink">COGNITION</text>
+<text x="355" y="772" class="mono micro paper-muted">Memory, context, and temporal interfaces</text>
+<line x1="252" y1="783" x2="1150" y2="783" stroke="#a9a79f"/>
+<circle cx="802" cy="783" r="6" fill="#f2f0e9" stroke="#111514"/>
+<circle cx="802" cy="783" r="2" fill="#111514"/>
+<text x="266" y="816" class="display ink" font-size="39">04</text>
+<text x="355" y="814" class="mono body ink">LONG-HORIZON RESEARCH</text>
+<text x="355" y="836" class="mono micro paper-muted">Instruments for decisions that compound</text>
+<line x1="252" y1="847" x2="1150" y2="847" stroke="#a9a79f"/>
+<circle cx="802" cy="847" r="6" fill="#f2f0e9" stroke="#111514"/>
+<circle cx="802" cy="847" r="2" fill="#111514"/>
+<rect x="340" y="846" width="590" height="37" fill="none" stroke="#111514" stroke-width="2"/>
+<text x="635" y="871" class="mono body ink" text-anchor="middle">DISCLOSE THE QUESTION. PROTECT THE WORK.</text>
+</svg>

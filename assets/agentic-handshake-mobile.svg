@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="820" viewBox="0 0 720 820" role="img" aria-labelledby="mobile-handshake-title mobile-handshake-desc">
+<title id="mobile-handshake-title">The agentic frontier</title>
+<desc id="mobile-handshake-desc">Two people delegate to agents that meet through verified airlocks and retain matching signed records.</desc>
+<defs>
+<pattern id="mobile-handshake-grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M 34 0 L 0 0 0 34" fill="none" stroke="#141b1a" stroke-width="0.7"/></pattern>
+<marker id="mobile-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#24d7e8"/></marker>
+<style>
+      .display { font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif; font-weight: 800; letter-spacing: 1px; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .white { fill: #f5f5f2; }
+      .muted { fill: #8b9693; }
+      .ink { fill: #111514; }
+      .paper-muted { fill: #666965; }
+      .mint { fill: #5ef2b2; }
+      .red { fill: #f0442e; }
+      .amber { fill: #d8a633; }
+      .eyebrow { font-size: 13px; letter-spacing: 2.2px; }
+      .label { font-size: 12px; letter-spacing: 1.4px; }
+      .micro { font-size: 9px; letter-spacing: 1px; }
+      .body { font-size: 14px; }
+      .signal { stroke-dasharray: 7 12; animation: signal-flow 12s linear infinite; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: live-pulse 2.4s ease-in-out infinite; }
+      @keyframes signal-flow { to { stroke-dashoffset: -190; } }
+      @keyframes live-pulse { 0%, 100% { opacity: .55; transform: scale(.84); } 50% { opacity: 1; transform: scale(1.08); } }
+      @media (prefers-reduced-motion: reduce) {
+        .signal, .pulse { animation: none !important; }
+      }
+    </style>
+</defs>
+<rect width="720" height="820" fill="#060909"/>
+<rect width="720" height="820" fill="url(#mobile-handshake-grid)" opacity="0.58"/>
+<text x="26" y="35" class="mono eyebrow muted">THE AGENTIC FRONTIER / PROOF 01</text>
+<text x="26" y="88" class="display white" font-size="37">THE NEXT SOFTWARE</text>
+<text x="26" y="129" class="display white" font-size="37">DOES NOT WAIT TO BE OPENED.</text>
+<text x="28" y="164" class="mono body muted">Delegated authority requires verifiable boundaries.</text>
+<line x1="196" y1="246" x2="196" y2="518" stroke="#24d7e8" stroke-width="2" stroke-dasharray="6 8" class="signal" marker-end="url(#mobile-arrow)"/>
+<line x1="524" y1="246" x2="524" y2="518" stroke="#24d7e8" stroke-width="2" stroke-dasharray="6 8" class="signal" marker-end="url(#mobile-arrow)"/>
+<circle cx="196" cy="246" r="34" fill="#060909" stroke="#d7ddda"/>
+<circle cx="196" cy="246" r="8" fill="none" stroke="#d7ddda"/>
+<text x="246" y="250" class="mono label white" text-anchor="middle">HUMAN</text>
+<circle cx="196" cy="365" r="34" fill="#060909" stroke="#d7ddda"/>
+<circle cx="196" cy="365" r="8" fill="none" stroke="#d7ddda"/>
+<text x="246" y="369" class="mono label white" text-anchor="middle">AGENT</text>
+<polygon points="196,470 230,490 230,530 196,550 162,530 162,490" fill="#081110" stroke="#24d7e8" stroke-width="1.5"/>
+<line x1="196" y1="482" x2="196" y2="538" stroke="#24d7e8" stroke-width="3"/>
+<text x="196" y="582" class="mono label white" text-anchor="middle">AIRLOCK</text>
+<circle cx="524" cy="246" r="34" fill="#060909" stroke="#d7ddda"/>
+<circle cx="524" cy="246" r="8" fill="none" stroke="#d7ddda"/>
+<text x="474" y="250" class="mono label white" text-anchor="middle">HUMAN</text>
+<circle cx="524" cy="365" r="34" fill="#060909" stroke="#d7ddda"/>
+<circle cx="524" cy="365" r="8" fill="none" stroke="#d7ddda"/>
+<text x="474" y="369" class="mono label white" text-anchor="middle">AGENT</text>
+<polygon points="524,470 558,490 558,530 524,550 490,530 490,490" fill="#081110" stroke="#24d7e8" stroke-width="1.5"/>
+<line x1="524" y1="482" x2="524" y2="538" stroke="#24d7e8" stroke-width="3"/>
+<text x="524" y="582" class="mono label white" text-anchor="middle">AIRLOCK</text>
+<line x1="232" y1="510" x2="488" y2="510" stroke="#24d7e8" stroke-width="2" stroke-dasharray="6 8" class="signal" marker-end="url(#mobile-arrow)"/>
+<text x="360" y="495" class="mono label mint" text-anchor="middle">A2A WIRE</text>
+<path d="M 196 552 L 196 650 Q 196 668 214 668 L 506 668 Q 524 668 524 650 L 524 552" fill="none" stroke="#d8a633" stroke-width="2" stroke-dasharray="4 5"/>
+<path d="M 360 650 l 14 8 v 16 q -14 15 -28 0 v -16 z" fill="#060909" stroke="#d8a633"/>
+<path d="M 354 665 l 5 5 9 -11" fill="none" stroke="#d8a633" stroke-width="2"/>
+<text x="360" y="725" class="mono label amber" text-anchor="middle">SIGNED RESIDUE</text>
+<text x="360" y="753" class="mono micro amber" text-anchor="middle">MATCHING RECORDS ON BOTH SIDES</text>
+<line x1="26" y1="790" x2="694" y2="790" stroke="#35403d"/>
+</svg>

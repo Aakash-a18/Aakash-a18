@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-08-17T17:22:29Z",
+  "projects": {
+    "Aakash-a18/mesherra": {
+      "url": "https://github.com/Aakash-a18/mesherra",
+      "description": "Trust layer for agent-to-agent (A2A) interaction. Identity verification, scoped disclosure, and provenance/attestation on top of Google's A2A protocol.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 7,
+      "pushed_at": "2026-07-10T18:26:27Z",
+      "archived": false
+    },
+    "Aakash-a18/meshycal": {
+      "url": "https://github.com/Aakash-a18/meshycal",
+      "description": "First Delegation built on Tesherra. Privacy-preserving meeting scheduling: two users' AI agents negotiate a meeting time without exposing either calendar, producing a signed attested record.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "pushed_at": "2026-06-22T21:44:26Z",
+      "archived": false
+    },
+    "Aakash-a18/chronica-life-in-frames": {
+      "url": "https://github.com/Aakash-a18/chronica-life-in-frames",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 72,
+      "forks": 5,
+      "open_issues": 24,
+      "pushed_at": "2026-03-10T15:48:55Z",
+      "archived": false
+    },
+    "Aakash-a18/funda": {
+      "url": "https://github.com/Aakash-a18/funda",
+      "description": "Personal investment research workbench",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "pushed_at": "2026-04-09T16:09:28Z",
+      "archived": false
+    }
+  }
+}
