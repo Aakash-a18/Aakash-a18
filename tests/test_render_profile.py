@@ -43,13 +43,23 @@ class ProfileRenderTests(unittest.TestCase):
             "MESHYCAL",
             "CHRONICA",
             "FUNDA",
-            "PRIVATE / ACTIVE",
+            "03 PRIVATE PROGRAMS / ACTIVE",
             "DISCLOSE THE QUESTION. PROTECT THE WORK.",
         ):
             self.assertIn(expected, svg)
         self.assertNotIn("<script", svg.lower())
         self.assertNotIn("foreignObject", svg)
         self.assertIn("prefers-reduced-motion", svg)
+
+    def test_v2_assets_hold_legibility_and_semantic_color_lock(self) -> None:
+        desktop = (ROOT / "assets" / "flight-recorder.svg").read_text(encoding="utf-8")
+        mobile = (ROOT / "assets" / "flight-recorder-mobile.svg").read_text(encoding="utf-8")
+        handshake = (ROOT / "assets" / "agentic-handshake.svg").read_text(encoding="utf-8")
+        self.assertIn('width="1200" height="620"', desktop)
+        self.assertIn('width="640" height="760"', mobile)
+        self.assertIn(".micro { font-size: 13px", desktop)
+        self.assertIn(".micro{font-size:15px}", mobile)
+        self.assertNotIn("#24d7e8", handshake)
 
     def test_private_program_schema_cannot_hold_repository_metadata(self) -> None:
         profile = json.loads((ROOT / "data" / "profile.json").read_text(encoding="utf-8"))
@@ -76,6 +86,7 @@ class ProfileRenderTests(unittest.TestCase):
             self.assertIn(f"./assets/{name}", readme)
             self.assertTrue((ROOT / "assets" / name).exists())
         self.assertIn("https://github.com/Aakash-a18/mesherra", readme)
+        self.assertNotIn("<table>", readme)
 
 
 if __name__ == "__main__":

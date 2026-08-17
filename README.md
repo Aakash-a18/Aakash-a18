@@ -13,42 +13,25 @@
   <a href="#public-proofs">ACTIVE PROOFS</a>
 </p>
 
+I build systems for **delegated software**: trust layers, bounded authority, temporal interfaces, and research instruments for decisions that compound.
+
 ## Public proofs
 
-<table>
-  <tr>
-    <td width="8%"><code>01</code></td>
-    <td width="64%">
-      <strong><a href="https://github.com/Aakash-a18/mesherra">Mesherra</a></strong><br />
-      <sub>Identity verification, scoped disclosure, and signed provenance for agent-to-agent interaction.</sub>
-    </td>
-    <td><code>PRE-ALPHA / ACTIVE</code></td>
-  </tr>
-  <tr>
-    <td><code>02</code></td>
-    <td>
-      <strong><a href="https://github.com/Aakash-a18/meshycal">MeshyCal</a></strong><br />
-      <sub>Two agents negotiate a meeting without exposing either calendar, then attest the result.</sub>
-    </td>
-    <td><code>FIRST DELEGATION</code></td>
-  </tr>
-  <tr>
-    <td><code>03</code></td>
-    <td>
-      <strong><a href="https://github.com/Aakash-a18/chronica-life-in-frames">Chronica</a></strong><br />
-      <sub>An Obsidian life calendar that turns decades into a navigable grid of weeks.</sub>
-    </td>
-    <td><code>PUBLIC / SHIPPED</code></td>
-  </tr>
-  <tr>
-    <td><code>04</code></td>
-    <td>
-      <strong><a href="https://github.com/Aakash-a18/funda">Funda</a></strong><br />
-      <sub>A personal investment research workbench for structured, long-horizon inquiry.</sub>
-    </td>
-    <td><code>PUBLIC / EXPLORING</code></td>
-  </tr>
-</table>
+### `01` [Mesherra](https://github.com/Aakash-a18/mesherra) · `PRE-ALPHA / ACTIVE`
+
+Identity verification, scoped disclosure, and signed provenance for agent-to-agent interaction.
+
+### `02` [MeshyCal](https://github.com/Aakash-a18/meshycal) · `FIRST DELEGATION`
+
+Two agents negotiate a meeting without exposing either calendar, then attest the result.
+
+### `03` [Chronica](https://github.com/Aakash-a18/chronica-life-in-frames) · `PUBLIC / SHIPPED`
+
+An Obsidian life calendar that turns decades into a navigable grid of weeks.
+
+### `04` [Funda](https://github.com/Aakash-a18/funda) · `PUBLIC / EXPLORING`
+
+A personal investment research workbench for structured, long-horizon inquiry.
 
 <div align="center">
   <picture>
@@ -57,9 +40,9 @@
   </picture>
 </div>
 
-## The agentic frontier
+## Trust wire
 
-The next software does not wait to be opened. It operates under delegated authority—so identity, disclosure, and provenance become product primitives rather than afterthoughts.
+The next software does not wait to be opened. It acts under delegated authority. That makes identity, scoped disclosure, and matching provenance part of the product—not security notes added later.
 
 <div align="center">
   <a href="https://github.com/Aakash-a18/mesherra">
@@ -70,18 +53,15 @@ The next software does not wait to be opened. It operates under delegated author
   </a>
 </div>
 
-## Private orbit
+## Private work, publicly legible
 
-Most active programs remain private while their questions are unstable. This profile exposes the research boundary, never the repository identity or implementation detail.
+Most active programs remain private while their questions are unstable. The boundary is deliberate:
 
-| Signal | Disclosure policy |
-|---|---|
-| Research question | Shared when it makes the work more legible |
-| Public proof | Linked when there is something concrete to inspect |
-| Repository identity | Withheld until intentionally disclosed |
-| Internal implementation | Private by default |
+- **Questions** are shared when they make the work more legible.
+- **Proofs** are linked when there is something concrete to inspect.
+- **Repository identity and implementation** remain private until intentionally disclosed.
 
-## Operating principles
+## Operating constraints
 
 ```text
 PROOF BEFORE PROCLAMATION.
@@ -91,4 +71,4 @@ ABSTRACT ONLY AFTER THE SECOND REAL USE.
 PUBLISH WHEN THE WORK CAN WITHSTAND BEING SEEN.
 ```
 
-<p align="center"><sub>Generated from a public-safe manifest. Private repository metadata is never queried.</sub></p>
+<p align="center"><sub>Generated from a public-safe manifest. The automation queries only explicitly listed public repositories.</sub></p>

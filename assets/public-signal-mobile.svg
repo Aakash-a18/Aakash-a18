@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" role="img" aria-labelledby="mobile-signal-title mobile-signal-desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="430" viewBox="0 0 640 430" role="img" aria-labelledby="mobile-signal-title mobile-signal-desc">
 <title id="mobile-signal-title">Public signal</title>
 <desc id="mobile-signal-desc">Recent public activity for four selected repositories.</desc>
 <style>
-      .display { font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif; font-weight: 800; letter-spacing: 1px; }
+      .display { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 800; letter-spacing: -0.7px; }
       .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
       .white { fill: #f5f5f2; }
-      .muted { fill: #8b9693; }
+      .muted { fill: #9aa6a2; }
       .ink { fill: #111514; }
-      .paper-muted { fill: #666965; }
+      .paper-muted { fill: #5f625e; }
       .mint { fill: #5ef2b2; }
       .red { fill: #f0442e; }
       .amber { fill: #d8a633; }
-      .eyebrow { font-size: 13px; letter-spacing: 2.2px; }
-      .label { font-size: 12px; letter-spacing: 1.4px; }
-      .micro { font-size: 9px; letter-spacing: 1px; }
-      .body { font-size: 14px; }
+      .eyebrow { font-size: 15px; font-weight: 700; letter-spacing: 2px; }
+      .label { font-size: 15px; font-weight: 650; letter-spacing: 1.15px; }
+      .micro { font-size: 13px; font-weight: 550; letter-spacing: .65px; }
+      .body { font-size: 18px; }
       .signal { stroke-dasharray: 7 12; animation: signal-flow 12s linear infinite; }
       .pulse { transform-box: fill-box; transform-origin: center; animation: live-pulse 2.4s ease-in-out infinite; }
       @keyframes signal-flow { to { stroke-dashoffset: -190; } }
@@ -24,38 +24,25 @@
         .signal, .pulse { animation: none !important; }
       }
     </style>
-<rect width="720" height="430" fill="#0a0d0d"/>
+<style>.eyebrow{font-size:17px}.label{font-size:17px}.micro{font-size:15px}.body{font-size:18px}</style>
+<rect width="640" height="430" fill="#0a0d0d"/>
 <text x="24" y="31" class="mono eyebrow mint">PUBLIC SIGNAL / AUTO-REFRESHED</text>
-<text x="696" y="31" class="mono micro muted" text-anchor="end">2026.08.17</text>
-<line x1="24" y1="47" x2="696" y2="47" stroke="#35403d"/>
-<line x1="360" y1="66" x2="360" y2="405" stroke="#26302e"/>
-<line x1="24" y1="230" x2="696" y2="230" stroke="#26302e"/>
-<text x="28" y="94" class="mono label white">01 / MESHERRA</text>
-<text x="28" y="132" class="mono micro muted">LAST PUSH</text>
-<text x="120" y="132" class="mono micro mint">1MO AGO</text>
-<text x="28" y="160" class="mono micro muted">STARS</text>
-<text x="120" y="160" class="mono micro white">0</text>
-<text x="28" y="188" class="mono micro muted">LANGUAGE</text>
-<text x="120" y="188" class="mono micro white">Python</text>
-<text x="384" y="94" class="mono label white">02 / MESHYCAL</text>
-<text x="384" y="132" class="mono micro muted">LAST PUSH</text>
-<text x="476" y="132" class="mono micro mint">1MO AGO</text>
-<text x="384" y="160" class="mono micro muted">STARS</text>
-<text x="476" y="160" class="mono micro white">0</text>
-<text x="384" y="188" class="mono micro muted">LANGUAGE</text>
-<text x="476" y="188" class="mono micro white">Python</text>
-<text x="28" y="258" class="mono label white">03 / CHRONICA</text>
-<text x="28" y="296" class="mono micro muted">LAST PUSH</text>
-<text x="120" y="296" class="mono micro mint">5MO AGO</text>
-<text x="28" y="324" class="mono micro muted">STARS</text>
-<text x="120" y="324" class="mono micro white">72</text>
-<text x="28" y="352" class="mono micro muted">LANGUAGE</text>
-<text x="120" y="352" class="mono micro white">TypeScript</text>
-<text x="384" y="258" class="mono label white">04 / FUNDA</text>
-<text x="384" y="296" class="mono micro muted">LAST PUSH</text>
-<text x="476" y="296" class="mono micro mint">4MO AGO</text>
-<text x="384" y="324" class="mono micro muted">STARS</text>
-<text x="476" y="324" class="mono micro white">0</text>
-<text x="384" y="352" class="mono micro muted">LANGUAGE</text>
-<text x="476" y="352" class="mono micro white">TypeScript</text>
+<text x="616" y="31" class="mono micro muted" text-anchor="end">2026.08.17</text>
+<line x1="24" y1="48" x2="616" y2="48" stroke="#35403d"/>
+<text x="28" y="91" class="mono label white">01 / MESHERRA</text>
+<text x="612" y="91" class="mono label mint" text-anchor="end">1MO AGO</text>
+<text x="28" y="121" class="mono micro muted">STARS  0   ·   LANGUAGE  Python   ·   PUSH  2026.07.10</text>
+<line x1="28" y1="143" x2="612" y2="143" stroke="#26302e"/>
+<text x="28" y="179" class="mono label white">02 / MESHYCAL</text>
+<text x="612" y="179" class="mono label mint" text-anchor="end">1MO AGO</text>
+<text x="28" y="209" class="mono micro muted">STARS  0   ·   LANGUAGE  Python   ·   PUSH  2026.06.22</text>
+<line x1="28" y1="231" x2="612" y2="231" stroke="#26302e"/>
+<text x="28" y="267" class="mono label white">03 / CHRONICA</text>
+<text x="612" y="267" class="mono label mint" text-anchor="end">5MO AGO</text>
+<text x="28" y="297" class="mono micro muted">STARS  72   ·   LANGUAGE  TypeScript   ·   PUSH  2026.03.10</text>
+<line x1="28" y1="319" x2="612" y2="319" stroke="#26302e"/>
+<text x="28" y="355" class="mono label white">04 / FUNDA</text>
+<text x="612" y="355" class="mono label mint" text-anchor="end">4MO AGO</text>
+<text x="28" y="385" class="mono micro muted">STARS  0   ·   LANGUAGE  TypeScript   ·   PUSH  2026.04.09</text>
+<line x1="28" y1="407" x2="612" y2="407" stroke="#26302e"/>
 </svg>
