@@ -27,14 +27,14 @@
 <style>.eyebrow{font-size:17px}.label{font-size:17px}.micro{font-size:15px}.body{font-size:18px}</style>
 <rect width="640" height="430" fill="#0a0d0d"/>
 <text x="24" y="31" class="mono eyebrow mint">PUBLIC SIGNAL / AUTO-REFRESHED</text>
-<text x="616" y="31" class="mono micro muted" text-anchor="end">2026.08.17</text>
+<text x="616" y="31" class="mono micro muted" text-anchor="end">2026.09.01</text>
 <line x1="24" y1="48" x2="616" y2="48" stroke="#35403d"/>
 <text x="28" y="91" class="mono label white">01 / MESHERRA</text>
 <text x="612" y="91" class="mono label mint" text-anchor="end">1MO AGO</text>
 <text x="28" y="121" class="mono micro muted">STARS  0   ·   LANGUAGE  Python   ·   PUSH  2026.07.10</text>
 <line x1="28" y1="143" x2="612" y2="143" stroke="#26302e"/>
 <text x="28" y="179" class="mono label white">02 / MESHYCAL</text>
-<text x="612" y="179" class="mono label mint" text-anchor="end">1MO AGO</text>
+<text x="612" y="179" class="mono label mint" text-anchor="end">2MO AGO</text>
 <text x="28" y="209" class="mono micro muted">STARS  0   ·   LANGUAGE  Python   ·   PUSH  2026.06.22</text>
 <line x1="28" y1="231" x2="612" y2="231" stroke="#26302e"/>
 <text x="28" y="267" class="mono label white">03 / CHRONICA</text>
