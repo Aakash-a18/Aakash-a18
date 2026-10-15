@@ -27,19 +27,19 @@
 <rect width="1200" height="250" fill="#0a0d0d"/>
 <line x1="26" y1="48" x2="1174" y2="48" stroke="#35403d"/>
 <text x="28" y="32" class="mono eyebrow mint">PUBLIC SIGNAL / AUTO-REFRESHED</text>
-<text x="1172" y="32" class="mono micro muted" text-anchor="end">SYNC 2026.09.03</text>
+<text x="1172" y="32" class="mono micro muted" text-anchor="end">SYNC 2026.10.15</text>
 <line x1="600" y1="66" x2="600" y2="230" stroke="#26302e"/>
 <line x1="26" y1="149" x2="1174" y2="149" stroke="#26302e"/>
 <text x="28" y="88" class="mono label white">01 / MESHERRA</text>
-<text x="568" y="88" class="mono label mint" text-anchor="end">1MO AGO</text>
+<text x="568" y="88" class="mono label mint" text-anchor="end">3MO AGO</text>
 <text x="28" y="118" class="mono micro muted">STARS  0   ·   LANGUAGE  Python   ·   LAST PUSH  2026.07.10</text>
 <text x="626" y="88" class="mono label white">02 / MESHYCAL</text>
-<text x="1166" y="88" class="mono label mint" text-anchor="end">2MO AGO</text>
+<text x="1166" y="88" class="mono label mint" text-anchor="end">3MO AGO</text>
 <text x="626" y="118" class="mono micro muted">STARS  0   ·   LANGUAGE  Python   ·   LAST PUSH  2026.06.22</text>
 <text x="28" y="176" class="mono label white">03 / CHRONICA</text>
-<text x="568" y="176" class="mono label mint" text-anchor="end">5MO AGO</text>
-<text x="28" y="206" class="mono micro muted">STARS  72   ·   LANGUAGE  TypeScript   ·   LAST PUSH  2026.03.10</text>
+<text x="568" y="176" class="mono label mint" text-anchor="end">7MO AGO</text>
+<text x="28" y="206" class="mono micro muted">STARS  71   ·   LANGUAGE  TypeScript   ·   LAST PUSH  2026.03.10</text>
 <text x="626" y="176" class="mono label white">04 / FUNDA</text>
-<text x="1166" y="176" class="mono label mint" text-anchor="end">4MO AGO</text>
+<text x="1166" y="176" class="mono label mint" text-anchor="end">6MO AGO</text>
 <text x="626" y="206" class="mono micro muted">STARS  0   ·   LANGUAGE  TypeScript   ·   LAST PUSH  2026.04.09</text>
 </svg>
