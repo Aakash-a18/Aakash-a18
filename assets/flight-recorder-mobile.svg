@@ -45,25 +45,25 @@
 <line x1="320" y1="248" x2="320" y2="462" stroke="#5ef2b2" stroke-width="2" class="signal"/>
 <circle cx="320" cy="271" r="5" fill="#5ef2b2"/>
 <text x="28" y="276" class="mono label white">01 / MESHERRA</text>
-<text x="612" y="276" class="mono micro mint" text-anchor="end">3MO AGO</text>
+<text x="612" y="276" class="mono micro mint" text-anchor="end">4MO AGO</text>
 <line x1="336" y1="288" x2="612" y2="288" stroke="#28322f"/>
 <circle cx="320" cy="314" r="5" fill="#5ef2b2"/>
 <text x="28" y="319" class="mono label white">02 / MESHYCAL</text>
-<text x="612" y="319" class="mono micro mint" text-anchor="end">4MO AGO</text>
+<text x="612" y="319" class="mono micro mint" text-anchor="end">5MO AGO</text>
 <line x1="336" y1="331" x2="612" y2="331" stroke="#28322f"/>
 <circle cx="320" cy="357" r="5" fill="#5ef2b2"/>
 <text x="28" y="362" class="mono label white">03 / CHRONICA</text>
-<text x="612" y="362" class="mono micro mint" text-anchor="end">7MO AGO</text>
+<text x="612" y="362" class="mono micro mint" text-anchor="end">TODAY</text>
 <line x1="336" y1="374" x2="612" y2="374" stroke="#28322f"/>
 <circle cx="320" cy="400" r="5" fill="#5ef2b2"/>
 <text x="28" y="405" class="mono label white">04 / FUNDA</text>
-<text x="612" y="405" class="mono micro mint" text-anchor="end">6MO AGO</text>
+<text x="612" y="405" class="mono micro mint" text-anchor="end">7MO AGO</text>
 <line x1="336" y1="417" x2="612" y2="417" stroke="#28322f"/>
 <circle cx="320" cy="447" r="5" fill="#f0442e"/>
 <text x="28" y="453" class="mono label red">03 PRIVATE PROGRAMS</text>
 <text x="612" y="453" class="mono micro muted" text-anchor="end">WITHHELD</text>
 <text x="26" y="536" class="mono label paper-muted">RESEARCH INDEX</text>
-<text x="614" y="536" class="mono micro paper-muted" text-anchor="end">SYNC 2026.10.28</text>
+<text x="614" y="536" class="mono micro paper-muted" text-anchor="end">SYNC 2026.11.22</text>
 <line x1="26" y1="550" x2="614" y2="550" stroke="#8b8b84"/>
 <line x1="320" y1="566" x2="320" y2="706" stroke="#b0ada4"/>
 <line x1="26" y1="636" x2="614" y2="636" stroke="#b0ada4"/>
